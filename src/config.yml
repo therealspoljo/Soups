@@ -1,0 +1,24 @@
+enabled-worlds:
+  - world
+  - world_nether
+  - world_the_end
+region-based:
+  enabled: false
+  regions:
+    - region_one
+    - region_two
+    - region_three
+health-regeneration:
+  enabled: true
+  amount: 4.5
+  sound: ENTITY_PLAYER_BURP
+hunger-regeneration:
+  enabled: true
+  amount: 6
+  sound: ENTITY_PLAYER_BURP
+refill:
+  economy:
+    enabled: false
+    cost-per-soup: 0.5
+  cooldown: 30
+  amount: 20

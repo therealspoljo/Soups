@@ -1,0 +1,38 @@
+main: com.therealspoljo.soups.Main
+name: Soups
+version: 3.1.2
+author: therealspoljo
+depend: [Vault, WorldEdit, WorldGuard]
+
+commands:
+  refill:
+    description: Refills your or another players inventory with soups
+    usage: /<command> [player]
+    aliases: [soup]
+  soups:
+    description: Administrative command
+    usage: /<command> <reload(rl) | health(he) | hunger(hu)> [amount]
+    aliases: []
+
+permissions:
+  soups.admin:
+    description: Allows you to change values from the config file and reload it
+    default: op
+  soups.fhealth:
+    description: Allows you to heal faster
+    default: op
+  soups.fhunger:
+    description: Allows you to eat faster
+    default: op
+  soups.refill:
+    description: Allows you to refill you inventory with soups
+    default: op
+  soups.refill.free:
+    description: Allows you to refill for free
+    default: op
+  soups.refill.no-cooldown:
+    description: Allows you to refill without having to wait for cooldown to end
+    default: op
+  soups.refill.others:
+    description: Allows you to refill another player
+    default: op
