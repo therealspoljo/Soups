@@ -15,10 +15,11 @@ import net.milkbowl.vault.economy.Economy;
 public class Main extends JavaPlugin {
 
     private static Main instance;
-    WorldGuardPlugin worldGuard = null;
+    
+    private WorldGuardPlugin worldGuard = null;
+    private Economy economy = null;
 
     private Config config, langConfig;
-    private Economy economy = null;
 
     @Override
     public void onEnable() {
