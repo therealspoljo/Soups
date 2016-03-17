@@ -15,7 +15,7 @@ import net.milkbowl.vault.economy.Economy;
 public class Main extends JavaPlugin {
 
     private static Main instance;
-    
+
     private WorldGuardPlugin worldGuard = null;
     private Economy economy = null;
 
@@ -41,7 +41,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onDisable() {
 	worldGuard = null;
-	
+
 	instance = null;
     }
 
