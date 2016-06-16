@@ -1,6 +1,6 @@
 main: com.therealspoljo.soups.Main
 name: Soups
-version: 3.1.2
+version: 3.2.0
 author: therealspoljo
 depend: [Vault, WorldEdit, WorldGuard]
 
