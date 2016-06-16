@@ -35,9 +35,9 @@ public class PlayerInteract implements Listener {
 		return;
 	    }
 
-	    if (player.getInventory().getItemInMainHand().getType() != Material.MUSHROOM_SOUP
-		    || player.getInventory().getItemInMainHand().getType() != Material.RABBIT_STEW
-		    || player.getInventory().getItemInMainHand().getType() != Material.BEETROOT_SOUP) {
+	    if (!(player.getInventory().getItemInMainHand().getType() == Material.BEETROOT_SOUP
+		    || player.getInventory().getItemInMainHand().getType() == Material.MUSHROOM_SOUP
+		    || player.getInventory().getItemInMainHand().getType() == Material.RABBIT_STEW)) {
 		return;
 	    }
 
@@ -65,9 +65,9 @@ public class PlayerInteract implements Listener {
 		return;
 	    }
 
-	    if (player.getInventory().getItemInMainHand().getType() != Material.MUSHROOM_SOUP
-		    || player.getInventory().getItemInMainHand().getType() != Material.RABBIT_STEW
-		    || player.getInventory().getItemInMainHand().getType() != Material.BEETROOT_SOUP) {
+	    if (!(player.getInventory().getItemInMainHand().getType() == Material.BEETROOT_SOUP
+		    || player.getInventory().getItemInMainHand().getType() == Material.MUSHROOM_SOUP
+		    || player.getInventory().getItemInMainHand().getType() == Material.RABBIT_STEW)) {
 		return;
 	    }
 
